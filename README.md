@@ -1,6 +1,6 @@
 # CreditsKit
 
-##### A simple way to list third-party licenses in your iOS apps.
+## A simple way to list third-party licenses in your iOS apps.
 
 To use this library you first have to create a **.plist** with all the third-party libraries and licenses.
 
