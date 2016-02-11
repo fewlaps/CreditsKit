@@ -1,22 +1,20 @@
 # CreditsKit
 
-A simple way to list third-party licenses in your iOS apps
+## A simple way to list third-party licenses in your iOS apps.
 
-In order to be able to do this, you to create a .plist with all the third-party libraries and licenses.
+To use this library you first have to create a **.plist** with all the third-party libraries and licenses.
 
+You can use the **CreditsKit.py** python script available in this repository to create the **.plist**
 
-You can use the python script available to create this file with the .plist
 This python script recursively searches for 'LICENSE.*' files and put them into a friendly plist. 
 
-Usage:
+### CraditsKit.py python script usage
 
 ```
 ./CreditsKit.py -s inputPath/ -o outputPath/FILENAME.plist
 ```
 
-Then, you can add the .plist created to your XCode project.
-
-The content, in case you build it manually, is something like:
+In case you choose to build the **.plist** manually, the content must be something like:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,7 +34,11 @@ The content, in case you build it manually, is something like:
 </plist>
 ```
 
-And use like this:
+### Usage
+
+- Add the **.plist** to your XCode project.
+
+- Use this code:
 
 ```objc
 CreditsKit* credit = [[CreditsKit alloc] initWithPListFile:@"FILENAME_without_extension"];
@@ -47,7 +49,9 @@ nav.navigationBar.barTintColor = kSummaryColor;
 nav.navigationBar.translucent = NO;
 [self presentViewController:nav animated:YES completion:nil];
 ```
-Some screenshots:
+
+### Screenshots:
+
 ![](screenshot1.png)
 
 ![](screenshot2.png)
