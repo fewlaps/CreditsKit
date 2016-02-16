@@ -1,10 +1,3 @@
-//
-//  CredtisKitView.h
-//
-//  Created by yeradis on 10/02/16.
-//  Copyright © 2016 Yeradis. All rights reserved.
-//
-
 #import "CreditsKit.h"
 #import "CreditsKitDetail.h"
 
