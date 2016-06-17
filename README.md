@@ -55,3 +55,11 @@ nav.navigationBar.translucent = NO;
 ![](screenshot1.png)
 
 ![](screenshot2.png)
+
+## Author
+
+Fewlaps, core@fewlaps.com
+
+## License
+
+CreditsKit is available under the MIT license. See the LICENSE file for more info.
